@@ -1,3 +1,5 @@
 {
-    "helloWorld": "¡Hola Mundo!"
+    "helloWorld": "¡Hola Mundo!",
+     "appTitle": "Aplicación de localización",
+     "appContent": "Esta aplicación está hecha para demostrar el uso de la localización en Flutter."
 }

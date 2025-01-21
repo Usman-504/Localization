@@ -48,6 +48,19 @@ class _HomeViewState extends State<HomeView> {
           )
         ],
       ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+
+          children: [
+            Text(AppLocalizations.of(context)!.appTitle, textAlign: TextAlign.center,),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: Text(AppLocalizations.of(context)!.appContent, textAlign: TextAlign.center,),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
